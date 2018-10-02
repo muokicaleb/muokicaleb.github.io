@@ -1,0 +1,77 @@
+body {
+	overflow-x: hidden; /*--right gutter fix--*/
+  font-family: sans-serif;
+  color: #505962;
+}
+.navbar{
+  background-color: #505962;
+}
+
+.home-inner{
+  background-image: url(img/landing.png);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index:1;
+}
+
+.caption hr{
+  max-width: 8rem;
+  border-width: 5px;
+  border-color: #fff;
+  padding-bottom: 2rem;
+}
+.caption h3{
+  color: white;
+  font-size: 3rem;
+}
+.caption p{
+  color: white;
+ 
+}
+
+
+hr{
+  max-width: 5rem;
+  border-width: 5px;
+}
+
+
+
+
+
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
