@@ -49,8 +49,21 @@ hr{
   background-color: #F0FFF0;
 }
 
+.portfolio-image{
+      width: 650px;
+    height: 350px;
+}
+
+.img-color {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
 
 
+.img-color2 {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(70%);
+}
 .portfolio-box {
   position: relative;
   display: block;
