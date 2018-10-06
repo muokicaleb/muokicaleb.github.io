@@ -7,6 +7,13 @@ body {
   background-color: #505962;
 }
 
+.partsDiv {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+
+
 .home-inner{
   background-image: url(img/landing.png);
 }
@@ -43,10 +50,14 @@ hr{
 .circle-bg {
     color: #505962;
 }
+.servicepadding{
+  padding-bottom: 5rem;
+}
 
-.serviceColor{
-  padding-top: 1rem;
+.portfolioColor{
+  padding-top: 60px;
   background-color: #F0FFF0;
+  margin-top: -60px;
 }
 
 .portfolio-image{
