@@ -6,10 +6,18 @@ body {
 .navbar{
   background-color: #505962;
 }
+.contact_color{
+  background-color: #D3D3D3 ;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
 
 .partsDiv {
     padding-top: 70px;
     margin-top: -70px;
+}
+.resume-bottom{
+  padding-bottom: 3rem;
 }
 
 
