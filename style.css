@@ -50,7 +50,7 @@ hr{
 .circle-bg {
     color: #505962;
 }
-.servicepadding{
+.bottom-padding{
   padding-bottom: 5rem;
 }
 
@@ -219,6 +219,26 @@ hr{
   background-color: #212529;
 }
 
+.resume-left{
+  
+    text-align: left;
+
+}
+.resume-title{
+  font-style: oblique;
+}
+.resume-brief{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.resume-nobullets{
+  list-style-type: none;
+}
+
 section {
   padding: 100px 0;
 }
@@ -228,6 +248,8 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
 }
+
+
 
 section h3.section-subheading {
   font-size: 16px;
